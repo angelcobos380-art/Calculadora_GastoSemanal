@@ -14,12 +14,25 @@ function eventListener(){
 class Presupuesto {
     constructor(presupuesto){
         this.presupuesto = Number(presupuesto);
+        this.restante = Number(presupuesto);
+        this.gastos = [];
     }
 }
 class UI {
+    insertarPresupuesto(cantidad){
+        //Extrayendo los valores
+      const{presupuesto, restante} = cantidad;
 
+      //Agregando al html 
+      document.querySelector("#total").textContent = presupuesto;
+      document.querySelector("#restante").textContent = restante;
+
+    }
 }
 
+
+//Instanciar
+const ui = new UI();
 let presupuesto; 
 
 // Funciones 
@@ -33,5 +46,7 @@ function preguntarPresupuesto(){
 //Presupuesto Valido
 presupuesto = new Presupuesto(presupuestoUsuario);
 console.log(presupuesto);
+
+ui.insertarPresupuesto(presupuesto);
 }
 
