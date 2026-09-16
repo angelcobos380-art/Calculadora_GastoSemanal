@@ -110,7 +110,14 @@ class UI {
             restanteDiv.classList.add("alert-warning");
         }
 
-        
+        //Si el total es menor a 0
+
+        if(restante <= 0){
+            ui.imprimirAlerta("El presupuesto se ha agotado", "error");
+
+            formulario.querySelector("button[type='submit']").disabled = true; 
+        }
+    }
 }
 
 
