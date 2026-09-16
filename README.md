@@ -1,9 +1,21 @@
-# Gasto Semanal
+<h1 align="center">Gasto Semanal 💰</h1>
 
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap)
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3" />
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap" />
+</p>
+
+---
+
+## 🚀 Demo en vivo
+
+[Ver aplicación](https://calculadora-gasto-semanal.vercel.app)
+
+<img width="1773" height="931" alt="Captura de pantalla 2026-09-15 a la(s) 8 04 25 p m" src="https://github.com/user-attachments/assets/c7e6ac28-3d62-46d2-88f3-f8a66310a400" />
+
+---
 
 ## Descripción del proyecto
 
@@ -28,7 +40,7 @@ El proyecto está pensado para resolver un problema cotidiano: llevar el control
 - Mensajes de alerta para errores y confirmaciones
 - Indicadores visuales de estado del presupuesto
 - Diseño simple, limpio y fácil de usar
-- Organización del código con clases en JavaScript
+- Organización del código con clases en JavaScript (ej. una clase para modelar cada gasto y otra para controlar la lógica del presupuesto), aplicando principios básicos de programación orientada a objetos
 
 ## Tecnologías utilizadas
 
@@ -38,3 +50,12 @@ El proyecto está pensado para resolver un problema cotidiano: llevar el control
 - JavaScript ES6+
 - DOM manipulation
 - Programación orientada a objetos
+
+---
+
+### 👤 Autor
+
+**Ángel Marco Martínez Cobos**
+Estudiante de Ing. en TI e Innovación Digital — UPChiapas
+
+[GitHub](https://github.com/angelcobos380-art) · [LinkedIn](https://www.linkedin.com/in/angel-marco-martinez-cobos-b68184432)
